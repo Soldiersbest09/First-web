@@ -2813,7 +2813,11 @@ li.fot:hover{
 }
 
 }
-
+@media (min-width: 1400px) and (max-width: 2100px) {
+    section.Asset-container{
+        display: none;
+    }
+}
 /* Desktop devices */
 @media (min-width: 2100px) and (max-width: 3000px) {
     body,html{
