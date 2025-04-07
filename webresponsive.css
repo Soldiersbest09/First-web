@@ -1232,6 +1232,7 @@ section.footer-reserved{
         line-height: 1.5em;
         color:rgb(0,0,0,0.5);
         margin-top: 0.7em;
+        padding-right:0.6rem;
     }
     .main-container-2{
         display: flex;
@@ -1774,7 +1775,7 @@ section.purple-square{
  }
  
  section.subscribe-container{
-     width: 60%;
+     width: 100%;
      height: auto;
      display: flex;
     gap: 1em;
@@ -1811,7 +1812,7 @@ section.purple-square{
  }
  
  section.subscribe-input-container{
-     width: 100%;
+     width: 80%;
      height: auto;
      display: flex;
      flex-direction: row;
@@ -2627,7 +2628,7 @@ section.purple-square{
     display: none;
  }
  section.subscribe-container{
-     width: 60%;
+     width: 100%;
      height: auto;
      display: flex;
     gap: 1em;
@@ -2664,7 +2665,7 @@ section.purple-square{
  }
  
  section.subscribe-input-container{
-     width: 100%;
+     width: 80%;
      height: auto;
      display: flex;
      flex-direction: row;
