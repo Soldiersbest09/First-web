@@ -2695,7 +2695,7 @@ section.footer-container{
     height: auto;
     transition: 1s ease-in-out;
 }
-h2{
+h2.foot-title{
     font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
