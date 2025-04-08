@@ -186,6 +186,7 @@ span{
     line-height: 1.7em;
     color:rgb(0,0,0,0.5);
     margin-top: 1em;
+    
 }
 .btn-2-cont{
     background-color: #4D2C5E;
@@ -1068,79 +1069,57 @@ section.footer-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 1.5em;
-    
+    gap: .5em;
+  
 }
-
-section.book-logo-container{
-    width: 25%;
-    height:auto;
-
-    
-}
-
-.foot-book-cont{
+.foot-boxes{
     width: 100%;
     height: auto;
-
-
+    transition: 1s ease-in-out;
 }
-.foot-book-logo{
+h2.foot-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #606060;
+}
+.book-logo{
+    width: 100%;
+}
+img.book-logo-img{
     width: 70%;
     height: auto;
 }
-
-p.book-header{
-    font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    font-style: normal;
-    color: rgba(0,0,0,0.8);
-}
-
-
-.book-text1{
+footer p.foot-text{
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    font-style: normal;
-    color: #606060;
     line-height: 1.5em;
+    text-decoration: none;
+    outline: none;
+    color: #606060;
     margin-top: .5em;
 
 }
-
-.book-header{
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-    font-style: normal;
-    color: black;
-    margin-top: 10px;
-}
-
-.book-text2{
-    font-style: normal;
-    color: #606060;
-    line-height: 3em;
-    margin-bottom: 1rem;
-}
-
-li.fot{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: normal;
-    color: #606060;
-    line-height: 2.5em;
-    outline: none;
+ul.dropdown{
     list-style: none;
-    display: inline;
+    text-decoration: none;
+    outline: none;
 }
+ul.dropdown li{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-decoration: none;
+    outline: none;
+    color: #606060;
+    margin-top: .5em;
 
-li.fot:hover{
+}
+ul.dropdown li:hover{
     text-decoration: underline;
-    cursor: pointer;
 }
 
 section.footer-reserved{
@@ -1232,7 +1211,8 @@ section.footer-reserved{
         line-height: 1.5em;
         color:rgb(0,0,0,0.5);
         margin-top: 0.7em;
-        padding-right:0.6rem;
+        padding-right: 0.6rem;
+
     }
     .main-container-2{
         display: flex;
@@ -1376,7 +1356,7 @@ section.ui-text-container{
     display: flex;
     flex-direction: column;
     margin-top: 0.6rem;
-    width: 100%;
+    width: 95%;
 }
 
 p.ui-text-title{
@@ -1684,7 +1664,7 @@ section.professor-image-cont{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-left: 0.3rem;
+    padding-left: 1.2rem;
 }
 .professor-context{
     width: 100%;
@@ -1790,11 +1770,12 @@ section.purple-square{
      align-self: center;
      flex-direction: column;
      margin-top: 2rem;
+     width: 100%;
  }
  
  .subscribe-title{
      font-family: "Poppins",sans-serif;
-     font-size: 2rem;
+     font-size: 1.8rem;
      font-weight: 500;
      font-style: normal;
      color: #FFFFFF;
@@ -1868,7 +1849,7 @@ section.purple-square{
      
  }
  /*FOOTER CSS*/
-footer{
+ footer{
     width: 100%;
     height: auto;
     background-color: #FDF8EE;
@@ -1877,86 +1858,55 @@ footer{
 }
 
 section.footer-container{
-    width: 98%;
+    width: 90%;
     margin: auto;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-    gap: 1.5em;
-
-    
+  
 }
-
-section.book-logo-container{
-    width: 6rem;
-    height:auto;
-    
-}
-
-.foot-book-cont{
+.foot-boxes{
     width: 100%;
     height: auto;
 
-
+    transition: 1s ease-in-out;
 }
-.foot-book-logo{
+h2.foot-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.book-logo{
     width: 100%;
+}
+img.book-logo-img{
+    width: 35%;
     height: auto;
 }
-
-p.book-header{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    font-style: normal;
-    color: rgba(0,0,0,0.8);
-}
-
-
-.book-text1{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: normal;
-    color: #606060;
-    line-height: 1.3em;
-    margin-top: .5em;
-   
-}
-
-.book-header{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    font-style: normal;
-    color: black;
-    margin-top: 10px;
-   
-}
-
-.book-text2{
-    font-style: normal;
-    color: #606060;
-    margin-bottom: 1rem;
-
-}
-
-li.fot{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: normal;
-    color: #606060;
-    line-height: 2.5em;
+ul.dropdown{
+  
+    text-decoration: none;
     outline: none;
-    list-style: none;
-    display: inline;
+    display: none;
 }
-
-li.fot:hover{
+ul.dropdown li{
+    font-family: "Roboto", sans-serif;
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-decoration: none;
+    outline: none;
+    list-style:inside;
+}
+.foot-boxes:hover{
+    ul.dropdown{
+        display: block;
+    }
+}
+ul.dropdown li:hover{
     text-decoration: underline;
-    cursor: pointer;
 }
 
 }
@@ -2721,12 +2671,13 @@ section.purple-square{
      
  }
  /*FOOTER CSS*/
-footer{
+ footer{
     width: 100%;
     height: auto;
     background-color: #FDF8EE;
     margin-top: 5rem;
     margin-bottom: 1rem;
+    overflow: hidden;
 }
 
 section.footer-container{
@@ -2736,84 +2687,60 @@ section.footer-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 1.5em;
-
-    
+    gap: .5em;
+  
 }
-
-section.book-logo-container{
-    width:20%;
-    height:auto;
-   
-}
-
-.foot-book-cont{
+.foot-boxes{
     width: 100%;
     height: auto;
- 
-
-
+    transition: 1s ease-in-out;
 }
-.foot-book-logo{
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #606060;
+}
+.book-logo{
+    width: 100%;
+}
+img.book-logo-img{
     width: 100%;
     height: auto;
 }
-
-p.book-header{
+footer p.foot-text{
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    font-style: normal;
-    color: rgba(0,0,0,0.8);
-}
-
-
-.book-text1{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 400;
-    font-style: normal;
-    color: #606060;
-    line-height: 1.3em;
-    margin-top: .5em;
-   
-}
-
-.book-header{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    font-style: normal;
-    color: black;
-    margin-top: 10px;
-   
-}
-
-.book-text2{
-    font-style: normal;
-    color: #606060;
-    margin-bottom: 1rem;
-
-}
-
-li.fot{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: normal;
-    color: #606060;
-    line-height: 2.5em;
+    line-height: 1.2em;
+    text-decoration: none;
     outline: none;
+    color: #606060;
+
+}
+ul.dropdown{
     list-style: none;
-    display: inline;
+    text-decoration: none;
+    outline: none;
 }
+ul.dropdown li{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-decoration: none;
+    outline: none;
+    color: #606060;
+    margin-top: .5em;
 
-li.fot:hover{
+}
+ul.dropdown li:hover{
     text-decoration: underline;
-    cursor: pointer;
 }
 
 }
+
 @media (min-width: 1400px) and (max-width: 2100px) {
     section.Asset-container{
         display: none;
